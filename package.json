@@ -1,0 +1,32 @@
+{
+  "name": "simple_http_server",
+  "version": "1.0.0",
+  "description": "node server that logs incoming requests and renders relevant pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx mocha server.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-fatihkaya13.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "bunyan"
+  ],
+  "author": "Fatih Kaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-fatihkaya13/issues"
+  },
+  "homepage": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-fatihkaya13#readme",
+  "dependencies": {
+    "bunyan": "^1.8.15"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
